@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .slider {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      .slide-item {
+        display: none;
+      }
+      .slide-item img {
+        width: 100%;
+      }
+      .show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slide-item show">
+        <img src="./images/2.jfif" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+          eveniet itaque dolor distinctio odit, voluptate eos ipsa natus vitae,
+          ab in quam accusamus magnam, modi harum ut mollitia. Mollitia, unde?
+        </p>
+      </div>
+      <div class="slide-item">
+        <img src="./images/3.jfif" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+          eveniet itaque dolor distinctio odit, voluptate eos ipsa natus vitae,
+          ab in quam accusamus magnam, modi harum ut mollitia. Mollitia, unde?
+        </p>
+      </div>
+      <div class="slide-item">
+        <img src="./images/4.jfif" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+          eveniet itaque dolor distinctio odit, voluptate eos ipsa natus vitae,
+          ab in quam accusamus magnam, modi harum ut mollitia. Mollitia, unde?
+        </p>
+      </div>
+
+      <button id="btnPrev">Prev</button>
+      <button id="btnNext">Next</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
